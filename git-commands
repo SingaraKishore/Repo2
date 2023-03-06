@@ -1,0 +1,40 @@
+git init (to initilize the empty git repo)
+git status
+git config --global user.name "Singara Kishore"
+git config --global user.email "kishore.pharma12@gmail.com"
+git config --list
+git config --global --unset user.name (to  unset user name)
+git config --global --unset user.email (to unset user email)
+
+
+------------
+ls (shows files)
+ls -a (shows files and inlude hiden files)
+touch file name (to create empty file)
+touch file1 file2 file3 file4 file5
+ls
+git status
+git add file2 file3 file4 file5
+or
+git add. (workspace to to staging)
+or git add *
+git add -A
+git status
+git commit - m "label" file1 (staging to local)
+git status
+git log
+
+
+========
+git clone https://github.com/SingaraKishore/Repo1.git
+ls
+cd repo1 (githut repository name)
+ls
+touch file1
+git status
+git add file1
+git status
+git commit -m "sample file1" file1
+git status
+git log
+git push
